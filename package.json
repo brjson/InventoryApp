@@ -4,6 +4,7 @@
   "description": "This is an inventory management application",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon ./index.js localhost 3000",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,5 +22,11 @@
   "bugs": {
     "url": "https://github.com/brjson/inventory/issues"
   },
-  "homepage": "https://github.com/brjson/inventory#readme"
+  "homepage": "https://github.com/brjson/inventory#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
 }
